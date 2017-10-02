@@ -1,0 +1,566 @@
+{
+  "abraham-moss": {
+    "name": "Abraham Moss",
+    "alternatives": [
+      "abraham moss"
+    ]
+  },
+  "manchester-airport": {
+    "name": "Manchester Airport",
+    "alternatives": [
+      "manchester airport",
+      "airport"
+    ]
+  },
+  "altrincham": {
+    "name": "Altrincham",
+    "alternatives": [
+      "altrincham"
+    ]
+  },
+  "ashton-moss": {
+    "name": "Ashton Moss",
+    "alternatives": [
+      "ashton moss"
+    ]
+  },
+  "anchorage": {
+    "name": "Anchorage",
+    "alternatives": [
+      "anchorage"
+    ]
+  },
+  "audenshaw": {
+    "name": "Audenshaw",
+    "alternatives": [
+      "audenshaw"
+    ]
+  },
+  "ashton-under-lyne": {
+    "name": "Ashton-Under-Lyne",
+    "alternatives": [
+      "ashton-under-lyne"
+    ]
+  },
+  "ashton-west": {
+    "name": "Ashton West",
+    "alternatives": [
+      "ashton west"
+    ]
+  },
+  "baguley": {
+    "name": "Baguley",
+    "alternatives": [
+      "baguley"
+    ]
+  },
+  "barlow-moor-road": {
+    "name": "Barlow Moor Road",
+    "alternatives": [
+      "barlow moor road"
+    ]
+  },
+  "brooklands": {
+    "name": "Brooklands",
+    "alternatives": [
+      "brooklands"
+    ]
+  },
+  "benchill": {
+    "name": "Benchill",
+    "alternatives": [
+      "benchill"
+    ]
+  },
+  "burton-road": {
+    "name": "Burton Road",
+    "alternatives": [
+      "burton road"
+    ]
+  },
+  "besses-o-th-barn": {
+    "name": "Besses o'th'Barn",
+    "alternatives": [
+      "besses o'th'barn"
+    ]
+  },
+  "bowker-vale": {
+    "name": "Bowker Vale",
+    "alternatives": [
+      "bowker vale"
+    ]
+  },
+  "bury": {
+    "name": "Bury",
+    "alternatives": [
+      "bury"
+    ]
+  },
+  "broadway": {
+    "name": "Broadway",
+    "alternatives": [
+      "broadway"
+    ]
+  },
+  "cemetery-road": {
+    "name": "Cemetery Road",
+    "alternatives": [
+      "cemetery road"
+    ]
+  },
+  "chorlton": {
+    "name": "Chorlton",
+    "alternatives": [
+      "chorlton"
+    ]
+  },
+  "clayton-hall": {
+    "name": "Clayton Hall",
+    "alternatives": [
+      "clayton hall"
+    ]
+  },
+  "cornbrook": {
+    "name": "Cornbrook",
+    "alternatives": [
+      "cornbrook"
+    ]
+  },
+  "crumpsall": {
+    "name": "Crumpsall",
+    "alternatives": [
+      "crumpsall"
+    ]
+  },
+  "crossacres": {
+    "name": "Crossacres",
+    "alternatives": [
+      "crossacres"
+    ]
+  },
+  "central-park": {
+    "name": "Central Park",
+    "alternatives": [
+      "central park"
+    ]
+  },
+  "derker": {
+    "name": "Derker",
+    "alternatives": [
+      "derker"
+    ]
+  },
+  "didsbury-village": {
+    "name": "Didsbury Village",
+    "alternatives": [
+      "didsbury village"
+    ]
+  },
+  "dane-road": {
+    "name": "Dane Road",
+    "alternatives": [
+      "dane road"
+    ]
+  },
+  "droylsden": {
+    "name": "Droylsden",
+    "alternatives": [
+      "droylsden"
+    ]
+  },
+  "eccles": {
+    "name": "Eccles",
+    "alternatives": [
+      "eccles"
+    ]
+  },
+  "etihad-campus": {
+    "name": "Etihad Campus",
+    "alternatives": [
+      "etihad campus"
+    ]
+  },
+  "east-didsbury": {
+    "name": "East Didsbury",
+    "alternatives": [
+      "east didsbury"
+    ]
+  },
+  "edge-lane": {
+    "name": "Edge Lane",
+    "alternatives": [
+      "edge lane"
+    ]
+  },
+  "exchange-quay": {
+    "name": "Exchange Quay",
+    "alternatives": [
+      "exchange quay"
+    ]
+  },
+  "exchange-square": {
+    "name": "Exchange Square",
+    "alternatives": [
+      "exchange square"
+    ]
+  },
+  "firswood": {
+    "name": "Firswood",
+    "alternatives": [
+      "firswood"
+    ]
+  },
+  "freehold": {
+    "name": "Freehold",
+    "alternatives": [
+      "freehold"
+    ]
+  },
+  "failsworth": {
+    "name": "Failsworth",
+    "alternatives": [
+      "failsworth"
+    ]
+  },
+  "deansgate-castlefield": {
+    "name": "Deansgate - Castlefield",
+    "alternatives": [
+      "deansgate - castlefield",
+      "deansgate",
+      "g-mex"
+    ]
+  },
+  "harbour-city": {
+    "name": "Harbour City",
+    "alternatives": [
+      "harbour city"
+    ]
+  },
+  "heaton-park": {
+    "name": "Heaton Park",
+    "alternatives": [
+      "heaton park"
+    ]
+  },
+  "hollinwood": {
+    "name": "Hollinwood",
+    "alternatives": [
+      "hollinwood"
+    ]
+  },
+  "holt-town": {
+    "name": "Holt Town",
+    "alternatives": [
+      "holt town"
+    ]
+  },
+  "kingsway-business-park": {
+    "name": "Kingsway Business Park",
+    "alternatives": [
+      "kingsway business park"
+    ]
+  },
+  "ladywell": {
+    "name": "Ladywell",
+    "alternatives": [
+      "ladywell"
+    ]
+  },
+  "langworthy": {
+    "name": "Langworthy",
+    "alternatives": [
+      "langworthy"
+    ]
+  },
+  "mediacityuk": {
+    "name": "MediaCityUK",
+    "alternatives": [
+      "mediacityuk"
+    ]
+  },
+  "martinscroft": {
+    "name": "Martinscroft",
+    "alternatives": [
+      "martinscroft"
+    ]
+  },
+  "milnrow": {
+    "name": "Milnrow",
+    "alternatives": [
+      "milnrow"
+    ]
+  },
+  "market-street": {
+    "name": "Market Street",
+    "alternatives": [
+      "market street"
+    ]
+  },
+  "monsall": {
+    "name": "Monsall",
+    "alternatives": [
+      "monsall"
+    ]
+  },
+  "moor-road": {
+    "name": "Moor Road",
+    "alternatives": [
+      "moor road"
+    ]
+  },
+  "navigation-road": {
+    "name": "Navigation Road",
+    "alternatives": [
+      "navigation road"
+    ]
+  },
+  "newbold": {
+    "name": "Newbold",
+    "alternatives": [
+      "newbold"
+    ]
+  },
+  "newton-heath-and-moston": {
+    "name": "Newton Heath & Moston",
+    "alternatives": [
+      "newton heath & moston"
+    ]
+  },
+  "newhey": {
+    "name": "Newhey",
+    "alternatives": [
+      "newhey"
+    ]
+  },
+  "new-islington": {
+    "name": "New Islington",
+    "alternatives": [
+      "new islington"
+    ]
+  },
+  "northern-moor": {
+    "name": "Northern Moor",
+    "alternatives": [
+      "northern moor"
+    ]
+  },
+  "oldham-king-street": {
+    "name": "Oldham King Street",
+    "alternatives": [
+      "oldham king street"
+    ]
+  },
+  "old-trafford": {
+    "name": "Old Trafford",
+    "alternatives": [
+      "old trafford"
+    ]
+  },
+  "oldham-central": {
+    "name": "Oldham Central",
+    "alternatives": [
+      "oldham central"
+    ]
+  },
+  "oldham-mumps": {
+    "name": "Oldham Mumps",
+    "alternatives": [
+      "oldham mumps"
+    ]
+  },
+  "piccadilly-gardens": {
+    "name": "Piccadilly Gardens",
+    "alternatives": [
+      "piccadilly gardens"
+    ]
+  },
+  "piccadilly": {
+    "name": "Piccadilly",
+    "alternatives": [
+      "piccadilly"
+    ]
+  },
+  "peel-hall": {
+    "name": "Peel Hall",
+    "alternatives": [
+      "peel hall"
+    ]
+  },
+  "pomona": {
+    "name": "Pomona",
+    "alternatives": [
+      "pomona"
+    ]
+  },
+  "prestwich": {
+    "name": "Prestwich",
+    "alternatives": [
+      "prestwich"
+    ]
+  },
+  "queens-road": {
+    "name": "Queens Road",
+    "alternatives": [
+      "queens road"
+    ]
+  },
+  "radcliffe": {
+    "name": "Radcliffe",
+    "alternatives": [
+      "radcliffe"
+    ]
+  },
+  "rochdale-town-centre": {
+    "name": "Rochdale",
+    "alternatives": [
+      "rochdale",
+      "rochdale town centre"
+    ]
+  },
+  "roundthorn": {
+    "name": "Roundthorn",
+    "alternatives": [
+      "roundthorn"
+    ]
+  },
+  "rochdale-railway-station": {
+    "name": "Rochdale Railway Station",
+    "alternatives": [
+      "rochdale railway station"
+    ]
+  },
+  "robinswood-road": {
+    "name": "Robinswood Road",
+    "alternatives": [
+      "robinswood road"
+    ]
+  },
+  "south-chadderton": {
+    "name": "South Chadderton",
+    "alternatives": [
+      "south chadderton"
+    ]
+  },
+  "shadowmoss": {
+    "name": "Shadowmoss",
+    "alternatives": [
+      "shadowmoss"
+    ]
+  },
+  "stretford": {
+    "name": "Stretford",
+    "alternatives": [
+      "stretford"
+    ]
+  },
+  "shaw-and-crompton": {
+    "name": "Shaw and Crompton",
+    "alternatives": [
+      "shaw and crompton",
+      "shaw"
+    ]
+  },
+  "shudehill": {
+    "name": "Shudehill",
+    "alternatives": [
+      "shudehill"
+    ]
+  },
+  "sale": {
+    "name": "Sale",
+    "alternatives": [
+      "sale"
+    ]
+  },
+  "salford-quays": {
+    "name": "Salford Quays",
+    "alternatives": [
+      "salford quays"
+    ]
+  },
+  "st-peters-square": {
+    "name": "St Peter's Square",
+    "alternatives": [
+      "st peter's square"
+    ]
+  },
+  "st-werburghs-road": {
+    "name": "St Werburgh's Road",
+    "alternatives": [
+      "st werburgh's road"
+    ]
+  },
+  "sale-water-park": {
+    "name": "Sale Water Park",
+    "alternatives": [
+      "sale water park"
+    ]
+  },
+  "timperley": {
+    "name": "Timperley",
+    "alternatives": [
+      "timperley"
+    ]
+  },
+  "trafford-bar": {
+    "name": "Trafford Bar",
+    "alternatives": [
+      "trafford bar"
+    ]
+  },
+  "victoria": {
+    "name": "Victoria",
+    "alternatives": [
+      "victoria"
+    ]
+  },
+  "velopark": {
+    "name": "Velopark",
+    "alternatives": [
+      "velopark"
+    ]
+  },
+  "whitefield": {
+    "name": "Whitefield",
+    "alternatives": [
+      "whitefield"
+    ]
+  },
+  "withington": {
+    "name": "Withington",
+    "alternatives": [
+      "withington"
+    ]
+  },
+  "wythenshawe-park": {
+    "name": "Wythenshawe Park",
+    "alternatives": [
+      "wythenshawe park"
+    ]
+  },
+  "weaste": {
+    "name": "Weaste",
+    "alternatives": [
+      "weaste"
+    ]
+  },
+  "west-didsbury": {
+    "name": "West Didsbury",
+    "alternatives": [
+      "west didsbury"
+    ]
+  },
+  "westwood": {
+    "name": "Westwood",
+    "alternatives": [
+      "westwood"
+    ]
+  },
+  "wythenshawe-town-centre": {
+    "name": "Wythenshawe Town Centre",
+    "alternatives": [
+      "wythenshawe town centre",
+      "wythenshawe"
+    ]
+  }
+}

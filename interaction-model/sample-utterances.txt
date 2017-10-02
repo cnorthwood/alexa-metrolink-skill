@@ -1,0 +1,13 @@
+TramTime when is the next tram from {TramStop}
+TramTime when's the next tram from {TramStop}
+TramTime how long until the next tram from {TramStop}
+TramTime when the next tram from {TramStop} is
+TramTime the time until the next tram from {TramStop}
+TramTime the next tram from {TramStop}
+
+TramStatus how the trams are running
+TramStatus if there is any current disruption
+TramStatus if there are any delays
+TramStatus if the trams are running okay
+TramStatus how the trams are
+TramStatus are the trams okay
