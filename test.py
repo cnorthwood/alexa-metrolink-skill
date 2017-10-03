@@ -24,7 +24,7 @@ class MetrolinkTest(unittest.TestCase):
         )
 
     def test_simple(self):
-        alexa_metrolink_skill.handle_request({
+        print(alexa_metrolink_skill.handle_request({
             "session": {
                 "new": False,
                 "sessionId": "SessionId.f5aa9e6b-19a5-477d-934c-f2eb54b60885",
@@ -68,7 +68,7 @@ class MetrolinkTest(unittest.TestCase):
                 }
             },
             "version": "1.0"
-        }, {})
+        }, {}))
 
 
 if __name__ == '__main__':

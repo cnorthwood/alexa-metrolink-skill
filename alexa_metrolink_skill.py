@@ -64,7 +64,7 @@ def tram_line_info_request():
         return "Sorry, I couldn't get the latest tram information"
     else:
         if lines:
-            return " ".join("{} line: {}.".format(line['name'], line['status']) for line in lines)
+            return " ".join("{}: {}.".format(line['name'], line['status']) for line in lines)
         else:
             return "There are no updates published at present"
 
@@ -99,7 +99,8 @@ def tram_stop_info_request(stop_name):
         return "The next tram from {} is a {}".format(stop_name, format_tram(departures[0]))
     else:
         response = "The next trams from {} are:".format(stop_name)
-        response += ' ,'.join('a {}'.format(format_tram(departure)) for departure in departures)
+        response += ', '.join('a {}'.format(format_tram(departure)) for departure in departures)
+        return response
 
 
 def build_response(speech_response):
