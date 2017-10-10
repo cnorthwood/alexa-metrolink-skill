@@ -11,6 +11,8 @@ if [ -z "`which jq`" ] ; then
     exit 1
 fi
 
+alexa_application_id=`jq -r .alexa_application_id secrets.json`
+
 echo -n "Creating package..."
 
 rm -f alexa_metrolink_skill.zip
@@ -40,6 +42,7 @@ if [ "$deployment_bucket" == "" ] ; then
     virtualenv/bin/aws cloudformation deploy \
         --stack-name $STACK_NAME \
         --template-file infrastructure/cloudformation.json \
+        --parameter-overrides AlexaApplicationId=$alexa_application_id \
         --capabilities CAPABILITY_IAM
     deployment_bucket=`virtualenv/bin/aws cloudformation describe-stack-resource \
         --stack-name $STACK_NAME \
@@ -59,7 +62,7 @@ echo "Updating Lambda deployment..."
 virtualenv/bin/aws cloudformation deploy \
     --stack-name $STACK_NAME \
     --template-file infrastructure/cloudformation.json \
-    --parameter-overrides Version=$version \
+    --parameter-overrides Version=$version AlexaApplicationId=$alexa_application_id \
     --capabilities CAPABILITY_IAM
 echo " ✅"
 

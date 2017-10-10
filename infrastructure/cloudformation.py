@@ -4,12 +4,13 @@ from awacs.aws import Action, Statement, Allow, Policy, Principal
 import os
 from troposphere import Template, Ref, GetAtt, Join, Parameter, If, Equals, Output
 from troposphere.iam import Role
-from troposphere.awslambda import Function, Code, Permission
+from troposphere.awslambda import Function, Code, Permission, Environment
 from troposphere.s3 import Bucket
 
 template = Template()
 
 version = template.add_parameter(Parameter("Version", Type="String", Default="0"))
+app_id = template.add_parameter(Parameter("AlexaApplicationId", Type="String"))
 
 template.add_condition("Bootstrapping", Equals(Ref(version), "0"))
 
@@ -43,6 +44,11 @@ skill = template.add_resource(Function(
             S3Bucket=Ref(bucket),
             S3Key=Join('/', [Ref(version), 'alexa_metrolink_skill.zip'])
         )
+    ),
+    Environment=Environment(
+        Variables={
+            'ALEXA_APP_ID': Ref(app_id)
+        }
     ),
     Handler='alexa_metrolink_skill.handle_request',
     Role=GetAtt(lambda_role, 'Arn'),

@@ -115,8 +115,14 @@ def build_response(speech_response):
     }
 
 
+def verify_application_id(event):
+    app_id = event['session']['application']['applicationId']
+    if app_id != os.environ['ALEXA_APP_ID']:
+        raise Exception('Application ID was invalid')
+
+
 def handle_request(event, context):
-    # verify_application_id(event)
+    verify_application_id(event)
 
     if event["request"]["type"] == "LaunchRequest":
         return build_response(tram_line_info_request())

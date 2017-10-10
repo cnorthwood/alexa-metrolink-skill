@@ -3,3 +3,4 @@ __pycache__
 /infrastructure/cloudformation.json
 /alexa_metrolink_skill.zip
 *.pyc
+/secrets.json
