@@ -133,6 +133,6 @@ def handle_request(event, context):
         elif intent_name == 'TramTime':
             return build_response(
                 tram_stop_info_request(
-                    event['request']['intent']['slots'].get('TramStop', {'value': 'unknown'})['value']
+                    event['request']['intent']['slots']['TramStop'].get('value', 'unknown')
                 )
             )
