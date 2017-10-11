@@ -4,3 +4,5 @@ __pycache__
 /alexa_metrolink_skill.zip
 *.pyc
 /secrets.json
+/interaction-model/stop-names.txt
+/stop-names.json
