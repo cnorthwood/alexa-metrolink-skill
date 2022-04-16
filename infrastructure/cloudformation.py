@@ -52,7 +52,7 @@ skill = template.add_resource(Function(
     ),
     Handler='alexa_metrolink_skill.handle_request',
     Role=GetAtt(lambda_role, 'Arn'),
-    Runtime='python3.6'
+    Runtime='python3.9'
 ))
 
 template.add_output(Output(

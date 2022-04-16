@@ -16,7 +16,7 @@ alexa_application_id=`jq -r .alexa_application_id secrets.json`
 echo -n "Creating package..."
 
 rm -f alexa_metrolink_skill.zip
-cd virtualenv/lib/python3.6/site-packages/
+cd virtualenv/lib/python3.9/site-packages/
 zip -r9 ../../../../alexa_metrolink_skill.zip * >/dev/null
 cd ../../../../
 zip -g alexa_metrolink_skill.zip alexa_metrolink_skill.py >/dev/null

@@ -117,7 +117,7 @@ def build_response(speech_response):
 
 def verify_application_id(event):
     app_id = event['session']['application']['applicationId']
-    if app_id != os.environ['ALEXA_APP_ID']:
+    if 'ALEXA_APP_ID' in os.environ and app_id != os.environ['ALEXA_APP_ID']:
         raise Exception('Application ID was invalid')
 
 

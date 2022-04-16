@@ -13,7 +13,7 @@ definitely not affiliated with TfGM, Metrolink, or anyone like that.
 Developing This
 ---------------
 
-You'll need Python 3.6 installed, and a way of running shell scripts.
+You'll need Python 3.9 installed, and a way of running shell scripts.
 
     ./bootstrap.sh
 

@@ -26,7 +26,7 @@ def get_stop_names():
 
         for row in csv.reader(response.content.decode('ascii').splitlines(), delimiter=','):
             if row[0].startswith('9400ZZMA'):
-                yield row[0][8:], row[4]
+                yield row[0][8:], row[6]
 
 
 def slugify_stop_name(stop_code, stop_name):
